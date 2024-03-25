@@ -1,0 +1,7 @@
+#spring:
+#  application:
+#    name: springbootpractice
+#  data:
+#    mongodb:
+#      uri: mongodb+srv://oumaimabelakhdar1:totalsucces@bank.ejkpnwx.mongodb.net/?retryWrites=true&w=majority&appName=Bank
+#      database: Bank
