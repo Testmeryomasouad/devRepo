@@ -8,5 +8,6 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface AccountRepo extends MongoRepository<Account,Long> {
-//ExerciceConflit
+
+    String getName();
 }
