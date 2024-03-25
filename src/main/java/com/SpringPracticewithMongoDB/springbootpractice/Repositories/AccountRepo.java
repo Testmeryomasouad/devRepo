@@ -10,4 +10,6 @@ import org.springframework.stereotype.Repository;
 public interface AccountRepo extends MongoRepository<Account,Long> {
 //ExerciceConflit
     public Account getAccountByrib(String rib);
+
+    String getName();
 }
