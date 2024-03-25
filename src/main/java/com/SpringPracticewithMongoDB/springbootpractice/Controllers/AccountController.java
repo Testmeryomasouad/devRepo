@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
+
 @RequestMapping("/Account")
 public class AccountController {
     @Autowired
@@ -19,7 +20,7 @@ public class AccountController {
     public Account select(@PathVariable Long id) {
         return accountService.getAccount(id);
     }
-
+//commit1
     @GetMapping("/getAll")
     public List<Account> selectAll(){
         return accountService.getAllAccount();
