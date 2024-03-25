@@ -26,7 +26,7 @@ public class AccountController {
         return accountService.getAllAccount();
     }
 
-
+//commit2
     @PostMapping("/insert")
     public Account insert(@RequestBody Account Ac){
         return accountService.addAccount(Ac);
