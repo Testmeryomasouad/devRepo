@@ -12,4 +12,5 @@ public interface AccountRepo extends MongoRepository<Account,Long> {
     public Account getAccountByrib(String rib);
 
     String getName();
+    Account getAccountByUser();
 }
